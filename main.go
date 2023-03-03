@@ -77,7 +77,7 @@ func getTodoById(id string) (*todo, error) {
 			return &todos[i], nil
 		}
 	}
-	return nil, errors.New("todo not found!")
+	return nil, errors.New("todo not found")
 }
 
 func main() {
